@@ -227,10 +227,7 @@ padding: 0;
 .hey{
   ul {
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  
   }
   
   ul li {
@@ -238,6 +235,7 @@ padding: 0;
   }
   
   ul li a {
+    float: left;
     width: 50px;
     height: 50px;
     background-color: #fff;
