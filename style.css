@@ -8,23 +8,24 @@ body
 {
 margin: 0;
 padding: 0;
-background:black;
-display: flex;
+background: black;
+
 }
 .circle{
     position: relative;
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
    /* background: aquamarine; */
    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .logo{
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     background-image: url(assets/juhu\ 1.jpg);
     background-size: cover;
     border-radius: 50%
@@ -51,22 +52,21 @@ display: flex;
 .text span{
     position: absolute;
     left: 50%;
-    font-size: 1.4em;
-    transform-origin: 0 80px;
+    font-size: 1.1em;
+    transform-origin: 0 60px;
 }
 .glow-text {
     text-shadow: 0 0 5px #0badda, 0 0 10px #12accf, 0 0 15px #1ab9ce;
 }
 .header {
     position: relative;
-    height: 160px;
+    height: 120px;
     border-radius: 70px;
     overflow: hidden;
     background: rgb(109,0,251);
     background: linear-gradient(to right, rgba(6, 97, 53, 0.922) ,rgb(13, 68, 86),rgb(9, 44, 88));
     margin: 10px;
 }
-
 .profile {
     position: absolute;
     left: 20px;
@@ -127,6 +127,8 @@ display: flex;
     padding: 8px 12px; /* Adjusted padding for a smaller button */
     background: linear-gradient(to right, #405DE6, #5851DB, #833AB4);
     color: white;
+    font-size: 15px;
+   
     font-family: 'Inter', sans-serif;
     text-decoration: none; /* Corrected property name from 'solid' to 'none' */
     border: none;
@@ -185,12 +187,14 @@ display: flex;
 
 .projects-container2 {
     margin: 10px; 
-    display: flex;   
+    display: flex;
+   
 }
+
 .hey{
   ul {
     display: flex;
-  
+   
   }
   
   ul li {
@@ -261,7 +265,7 @@ display: flex;
 }
 .project-card {
     cursor: pointer;
-  
+
     border-radius: 10px;
     overflow: hidden;
     width: 350px; 
@@ -288,7 +292,7 @@ display: flex;
 
 .project-card2 {
     cursor: pointer;
-  
+    
     border-radius: 10px;
     overflow: hidden;
     width: 280px; 
@@ -325,9 +329,9 @@ display: flex;
 }
 
 .project-title {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Use the Inter font or your preferred font */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Use the Inter font or your preferred font */
     margin: 5px; 
-    font-size: 22px;
+    font-size: 23px;
 }
 
 .social-container img {
@@ -350,7 +354,8 @@ display: flex;
     /* background: rgb(109,0,251);
 background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, rgba(37,101,119,1) 28%,
  rgba(27,72,98,1) 43%, rgba(89,88,97,1) 70%, rgba(9,121,110,1) 100%, rgba(3,50,25,1) 100%, rgba(2,0,36,1) 100%); */
-    background: linear-gradient(to right, rgba(6, 97, 53, 0.922) ,rgb(13, 68, 86),rgb(9, 44, 88));
+ 
+   background: linear-gradient(to right, rgba(6, 97, 53, 0.922) ,rgb(13, 68, 86),rgb(9, 44, 88));
     margin: 10px;
   }
 
@@ -364,9 +369,9 @@ background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, 
     background: linear-gradient(to right, #405DE6, #5851DB, #833AB4);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10%;
     cursor: pointer;
-    height: 50px;
+    height: 65px;
     transition: background 0.3s, color 0.3s;
   }
 
@@ -421,7 +426,7 @@ background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, 
     font-size: large;
     min-width: 30px;
     height: 30px;
-    background:rgb(255,255,255);
+    background:rgb(255, 255, 255);
     margin: 5px 5px 5px 5px; /* Adjusted margin for better spacing */
     border-radius: 10px;
     display: flex;
@@ -430,7 +435,7 @@ background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, 
     font-family: 'Inter', sans-serif;
     font-size: medium;
     padding-left: 4px;
-    color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
     padding-right: 4px;
 }
 
@@ -439,7 +444,7 @@ background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, 
     font-size: large;
     min-width: 30px;
     height: 30px;
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
     margin: 5px 5px 5px 5px; /* Adjusted margin for better spacing */
     border-radius: 10px;
     display: flex;
@@ -448,7 +453,7 @@ background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, 
     font-family: 'Inter', sans-serif;
     font-size: medium;
     padding-left: 4px;
-    color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
     padding-right: 4px;
     border: 4px solid #b404dc ;
 }
@@ -480,15 +485,13 @@ background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, 
   }
   
 /* Media Query for smaller screens */
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     .header {
         height: 120px;
     }
-
     .profile {
         left: 10px;
     }
-
     .profile-picture{
         margin-right: 4px;
     }
@@ -538,6 +541,4 @@ background: linear-gradient(90deg, rgba(109,0,251,1) 0%, rgba(57,185,158,1) 0%, 
     }
 
     
-}
-
- 
+} 
